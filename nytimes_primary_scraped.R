@@ -1,5 +1,6 @@
+# RUN THIS FILE FIRST
 library(dplyr)
-library(rvest)
+library(rvest) # this package allows you to grab tables from websites
 
 url_vt <- "https://www.nytimes.com/interactive/2024/03/05/us/elections/results-vermont-republican-presidential-primary.html"
 vt <- url_vt %>% 
